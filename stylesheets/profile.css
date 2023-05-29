@@ -1,0 +1,26 @@
+.user_info{
+    display: flex;
+    margin: 2% 10%;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(152, 251, 152);
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+}
+
+.info_box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 5%;
+}
+
+.info_box div{
+    margin-top:10px;
+}
+
+h2{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+}

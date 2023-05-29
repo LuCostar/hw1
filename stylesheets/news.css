@@ -1,0 +1,54 @@
+
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+
+}
+
+.article{
+    background-color: rgba(152, 251, 152, 0.769);
+    margin: 5%;
+    padding: 5%;
+    width: 90%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.article img{
+    width: 90vh;
+    border-radius: 50px;
+}
+
+.article h4{
+    display: flex;
+    font-size: 1.5em;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+}
+
+.article div{
+    width: 90%;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.article a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.article a:hover{
+    cursor: pointer;
+}
+
+.article:hover{
+    background-color: rgb(152, 251, 152);
+}
+

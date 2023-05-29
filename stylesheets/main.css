@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-weight: bold;
+    cursor: default;
+    background-image: url('../assets/frog_bg.jpg');
+    background-repeat: repeat;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+}
+
+h1{
+    margin: 0px 10%;
+    font-size: 3em;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 245, 226, 0.669);
+    border-radius: 50px;
+    height: 80px;
+    width:fit-content;
+    padding: 0px 2%;
+    margin: 12px 8%;
+}
+
+.logo h1{
+    margin: 0px;
+}
+
+.logo img{
+    height: 80%;
+    margin-right: 20px;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    margin-block-end: 5px;
+}
+
+

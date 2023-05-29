@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(152, 251, 152, 0.769);
+    border-bottom: 5px solid rgb(115, 207, 115);
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#left {
+    justify-content: flex-start;
+}
+
+#right{
+    justify-content: flex-end;
+}
+
+nav div div {
+    width: 15vh;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin:0px 2%;
+    height: 100%;
+    text-decoration: none;
+    align-items: center;
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color: rgb(115, 207, 115);
+}
+
+.icons img{
+    margin: 5% 5px;
+    height: 70%;
+}
+
+.banner{
+    display: flex;
+
+}
+
+.banner img{
+    width: 100%;
+}
